@@ -20,7 +20,7 @@ export class HomeComponent implements OnInit {
   }
 
   addGoal(){
-    
+     
     this.goalList.push(this.goalText);
     this.goalText="";
     this.itemCount= this.goalList.length;
