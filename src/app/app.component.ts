@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'QB Angular';
+  public parentvalue ="value from app";
 }

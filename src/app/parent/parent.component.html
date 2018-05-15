@@ -1,0 +1,17 @@
+
+
+<div class="container-fluid border rounded text-warning bg-primary  row">
+
+  <div class="col">
+    <p>
+      parent works! passing data between parent and child msg:{{messageFromChildTwo}}
+    </p>
+  </div>
+  <app-childone class="col" [messageInChild]="messageInParent"></app-childone>
+
+  <app-childtwo class="col" (messageEvent)="receiveMessage($event)"></app-childtwo>
+
+</div>
+
+
+
