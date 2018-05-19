@@ -8,6 +8,7 @@ export class SiblingDataServiceService {
 
   messageFromService = new BehaviorSubject<string>("default message from service");
   //currentMessage =this.messageFromService.asObservable();
+   newString:string ="new string from service";
 
   constructor() { }
 

@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit {
   }
 
   addGoal(){
-     
+     debugger;
     this.goalList.push(this.goalText);
     this.goalText="";
     this.itemCount= this.goalList.length;
